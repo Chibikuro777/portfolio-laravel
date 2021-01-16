@@ -13,7 +13,7 @@
 <body>
     <header class="container-fluid top-header-colour">
         <div class="d-flex flex-column align-items-center justify-content-center header-title">
-            <h4>Thanks for visiting my portfolio!</h4>
+            <h4>Thanks for visiting my portfolio site!</h4>
             <div class="d-flex flex-column">
                 <h1>I'm</h1>
                 <h1 class="name">Sanae Kawasaka</h1>
@@ -25,19 +25,29 @@
     <div class="container-fluid top-content">
         <div class="row">
             <div class="col-sm text-center py-4 d-flex flex-column align-items-center">
-                <h2 class="">
+                <h2 class="col-sm text-center py-4">
                 Work Experiences
                 </h2>
                 <span style="font-size:1000%;">
-                <i class="fas fa-laptop-code"></i>
+                    <a href="./workExperiences"><i class="fas fa-laptop-code icon"></i></a>
                 </span>
             </div>
-            <h2 class="col-sm text-center py-4">
-            Gallery
-            </h2>
-            <h2 class="col-sm text-center py-4">
-            Hobby
-            </h2>
+            <div class="col-sm text-center py-4 d-flex flex-column align-items-center">
+                <h2 class="col-sm text-center py-4">
+                Gallery
+                </h2>
+                <span style="font-size:1000%;">
+                    <a href="./gallery"><i class="far fa-folder icon"></i></a>
+                </span>
+            </div>
+            <div class="col-sm text-center py-4 d-flex flex-column align-items-center">
+                <h2 class="col-sm text-center py-4">
+                Hobby
+                </h2>
+                <span style="font-size:1000%;">
+                    <a href="./hobby"><i class="far fa-thumbs-up icon"></i></a>
+                </span>
+            </div>
         </div>
     </div>
 
@@ -47,8 +57,8 @@
         <h2 class="mr-2 mb-0">
             Contact Me!
         </h2>
-        <span style="font-size:250%; color:navy;">
-            <i class="fas fa-envelope-square"></i>
+        <span style="font-size:250%;">
+            <a href="./contact"><i class="fas fa-envelope-square mr-5 icon"></i></a>
         </span>
     </div>
 

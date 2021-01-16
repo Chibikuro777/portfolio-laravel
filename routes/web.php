@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\topController;
+use App\Http\Controllers\ViewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +18,8 @@ use App\Http\Controllers\topController;
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [topController::class, 'index']);
+Route::get('/', [ViewController::class, 'index']);
+Route::get('/workExperiences', [ViewController::class, 'workExperiences']);
+Route::get('/gallery', [ViewController::class, 'gallery']);
+Route::get('/hobby', [ViewController::class, 'hobby']);
+Route::get('/contact', [ViewController::class, 'contact']);
