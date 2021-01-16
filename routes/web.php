@@ -18,7 +18,7 @@ use App\Http\Controllers\ViewController;
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [ViewController::class, 'index']);
+Route::get('/index', [ViewController::class, 'index']);
 Route::get('/workExperiences', [ViewController::class, 'workExperiences']);
 Route::get('/gallery', [ViewController::class, 'gallery']);
 Route::get('/hobby', [ViewController::class, 'hobby']);

@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
-    <header class="container-fluid top-header-colour">
+    <header class="container-fluid top-header">
         <div class="d-flex flex-column align-items-center justify-content-center header-title">
             <h4>Thanks for visiting my portfolio site!</h4>
             <div class="d-flex flex-column">
                 <h1>I'm</h1>
-                <h1 class="name">Sanae Kawasaka</h1>
+                <h1 class="title-name">Sanae Kawasaka</h1>
             </div>
             <h4>I design and develop websites and applications.</h4>
         </div>

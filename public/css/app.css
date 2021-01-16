@@ -9975,7 +9975,7 @@ body {
   height: 100vh;
 }
 
-.top-header-colour {
+.top-header {
   height: 40%;
 }
 
@@ -9992,7 +9992,7 @@ body {
   height: 20%;
 }
 
-.name {
+.title-name {
   font-size: 700%;
   font-family: "Big Shoulders Stencil Text", cursive;
 }
