@@ -1,3 +1,7 @@
+*{
+    font-family: 'Gochi Hand', cursive;
+}
+
 body{
     height: 100vh;
 }
@@ -11,7 +15,9 @@ body{
 
 .top-content{
     height: 40%;
-    background-color: skyblue;
+    background-color: gold;
+    border-radius: 10%;
+    margin: 2%;
 }
 
 .top-footer{
@@ -20,10 +26,4 @@ body{
 
 .title-name{
     font-size: 700%;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-}
-
-.icon:hover{
-    color: pink;
-    cursor: pointer;
 }
