@@ -7,8 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
     <header class="container-fluid top-header">
@@ -31,7 +29,7 @@
                 <span style="font-size:1000%; color:navy;">
                     <i class="fas fa-laptop-code icon"></i>
                 </span>
-                <a href="./workExperiences"><button type="button" class="btn btn-secondary">View details</button></a>
+                <a href="{{ route('work_experiences') }}"><button type="button" class="btn btn-secondary">View details</button></a>
             </div>
             <div class="col-sm text-center py-4 d-flex flex-column align-items-center top-content">
                 <h1 class="col-sm text-center py-4">
@@ -40,7 +38,7 @@
                 <span style="font-size:1000%; color:navy;">
                     <i class="far fa-folder icon"></i>
                 </span>
-                <a href="./gallery"><button type="button" class="btn btn-secondary">View details</button></a>
+                <a href="{{ route('gallery') }}"><button type="button" class="btn btn-secondary">View details</button></a>
             </div>
             <div class="col-sm text-center py-4 d-flex flex-column align-items-center top-content">
                 <h1 class="col-sm text-center py-4">
@@ -49,7 +47,7 @@
                 <span style="font-size:1000%; color:navy;">
                     <i class="far fa-thumbs-up icon"></i>
                 </span>
-                <a href="./hobby"><button type="button" class="btn btn-secondary">View details</button></a>
+                <a href="{{ route('hobby') }}"><button type="button" class="btn btn-secondary">View details</button></a>
             </div>
         </div>
     </div>
@@ -61,7 +59,7 @@
             Contact Me!
         </h2>
         <span style="font-size:250%;">
-            <a href="./contact"><i class="fas fa-envelope-square mr-5 icon" style="color:navy;"></i></a>
+            <a href="{{ route('contact') }}"><i class="fas fa-envelope-square mr-5 icon" style="color:navy;"></i></a>
         </span>
     </div>
 
