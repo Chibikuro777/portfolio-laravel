@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ViewController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,8 @@ Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/', [ViewController::class, 'index']);
-Route::get('/workExperiences', [ViewController::class, 'workExperiences']);
-Route::get('/gallery', [ViewController::class, 'gallery']);
-Route::get('/hobby', [ViewController::class, 'hobby']);
-Route::get('/contact', [ViewController::class, 'contact']);
+Route::get('/workExperiences', [ViewController::class, 'workExperiences'])->name('work_experiences');
+Route::get('/gallery', [ViewController::class, 'gallery'])->name('gallery');
+Route::get('/hobby', [ViewController::class, 'hobby'])->name('hobby');
+Route::get('/contact', [ContactController::class, 'input'])->name('contact');
+Route::post('/confirm', [ContactController::class, 'confirm'])->name('confirm');

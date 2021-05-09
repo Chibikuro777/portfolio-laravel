@@ -13,7 +13,7 @@ class ViewController extends Controller
 
     public function workExperiences()
     {
-        return view('workExperiences');
+        return view('work_experiences');
     }
 
     public function gallery()
@@ -24,10 +24,5 @@ class ViewController extends Controller
     public function hobby()
     {
         return view('hobby');
-    }
-
-    public function contact()
-    {
-        return view('contact');
     }
 }
