@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\ContactRequest;
 
 class ContactController extends Controller
 {
@@ -11,8 +12,17 @@ class ContactController extends Controller
         return view('contact.input');
     }
 
-    public function confirm()
+    public function confirm(ContactRequest $request)
     {
-        return view('contact.confirm');
+        if ($request->input('button') === 'back') {
+            return redirect('contact.input');
+        } else {
+            return view('contact.confirm');
+        }
+    }
+
+    public function complete()
+    {
+        return view('contact.complete');
     }
 }

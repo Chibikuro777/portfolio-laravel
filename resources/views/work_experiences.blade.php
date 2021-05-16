@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>{{ config('app.name') }}</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
@@ -15,7 +15,7 @@
     </header>
     <nav aria-label="breadcrumb" class="container">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index">Top</a></li>
+            <li class="breadcrumb-item"><a href="{{ route('top') }}">Top</a></li>
             <li class="breadcrumb-item active" aria-current="page">Work Experiences</li>
             <li class="breadcrumb-item"><a href="./gallery">Gallery</a></li>
             <li class="breadcrumb-item"><a href="./hobby">Hobby</a></li>
@@ -36,7 +36,7 @@
             </span>
         </div>
         <div class="d-flex flex-column justify-content-center">
-            <p>Feb 2020-Current</p>
+            <b>Feb 2020-Current</b>
             <p class="mb-0">Main Tasks: 
                 <li>System unit tests</li>
                 <li>compose system specifications</li>

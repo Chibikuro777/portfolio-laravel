@@ -10004,3 +10004,29 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  height: 100vh;
+}
+
+.top-header {
+  height: 40%;
+}
+
+.header-title {
+  height: 100%;
+}
+
+.top-content {
+  height: 40%;
+  background-color: gold;
+  border-radius: 10%;
+  margin: 2%;
+}
+
+.top-footer {
+  height: 20%;
+}
+
+.title-name {
+  font-size: 700%;
+}
